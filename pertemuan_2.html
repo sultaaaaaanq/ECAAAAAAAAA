@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECAAAAAAAAAAAA</title>
+</head>
+<body>
+    <h1>HAI ECAAA</h1>
+    <style>
+        .foto-kecil {
+          width: 150px;
+          height: auto; /* agar rasio tetap terjaga */
+        }
+      </style>
+      
+      <img src="WhatsApp Image 2025-04-20 at 23.18.23_89c47625.jpg" class="foto-kecil">
+      
+
+    <p> Kamu pasti sudah bobo, AKU MAU NGUCAPIN MAKASIH BUAT HARI INI ,karna sayang sudah beliin aku sepatu,"Terima kasih banyak ya sayang, atas segalanya.Aku sangat bersyukur punya kamu.Aku sangat bersyukur punya kamu.
+
+
+    </p>
+    <blockquote>
+        elsya nurul fadlika <q> jangan menyerah allah selalu bersama kita
+        </q>
+    </blockquote>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Pertanyaan Sederhana</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    #pertanyaan-list {
+      margin-top: 20px;
+    }
+    .pertanyaan-item {
+      background: #f2f2f2;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Tulis respon kamu disini</h1>
+  <form id="formPertanyaan">
+    <label for="pertanyaan">Tulis dibawah:</label><br>
+    <textarea id="pertanyaan" name="pertanyaan" rows="4" cols="50" required></textarea><br><br>
+    <button type="submit">Kirim</button>
+  </form>
+
+  <div id="pertanyaan-list"></div>
+
+  <script>
+    const form = document.getElementById("formPertanyaan");
+    const list = document.getElementById("pertanyaan-list");
+
+    form.addEventListener("submit", function(event) {
+      event.preventDefault();
+      const teks = document.getElementById("pertanyaan").value;
+      const item = document.createElement("div");
+      item.className = "pertanyaan-item";
+      item.textContent = teks;
+      list.prepend(item);
+      form.reset();
+    });
+  </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Terima Kasih, Cinta</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 40px 20px;
+      background: linear-gradient(to bottom right, #ffc0cb, #ffe4e1);
+      font-family: 'Poppins', sans-serif;
+      color: #333;
+      text-align: center;
+      overflow-y: auto; /* Aktifkan scroll vertikal */
+    }
+
+    h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3em;
+      color: #b30059;
+      margin-bottom: 20px;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    p {
+      font-size: 1.2em;
+      max-width: 800px;
+      margin: 30px auto;
+      line-height: 1.6;
+      animation: fadeIn 3s ease-in-out;
+    }
+
+    .heart {
+      font-size: 2em;
+      color: red;
+      animation: pulse 1.5s infinite;
+      margin: 40px 0;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Terima Kasih, Sayang</h1>
+
+  <p>
+    Untuk setiap senyuman, setiap pelukan, dan setiap detik bersamamu — aku bersyukur.  
+    Hadirmu membuat hidupku lebih indah dan penuh warna.  
+    Terima kasih telah menjadi bagian dari hariku.  
+  </p>
+
+  <p>
+    Saat hari terasa berat, kamu hadir memberi kekuatan. Saat aku ragu, kamu adalah keyakinanku.  
+    Cintamu adalah cahaya dalam kegelapan dan pelangi setelah hujan.  
+    Bersamamu, semua terasa mungkin.
+  </p>
+
+  <p>
+    Tak ada kata yang cukup menggambarkan betapa berartinya kamu bagiku.  
+    Tapi izinkan aku mencoba: Kamu adalah segalanya.  
+    Dan aku akan terus berterima kasih untuk setiap hari bersamamu.
+  </p>
+
+  <p>
+    Aku mencintaimu bukan hanya karena siapa kamu, tapi karena siapa aku ketika bersamamu.  
+    Kamu menginspirasiku untuk jadi versi terbaik dari diriku sendiri.
+  </p>
+
+  <div class="heart">❤️</div>
+
+</body>
+</html>
